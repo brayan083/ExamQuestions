@@ -25,7 +25,6 @@ const OptionButton: React.FC<OptionButtonProps> = ({
   isCorrect,
   isIncorrect,
   isAnswered,
-  isMultipleChoice,
   onClick
 }) => {
   const getButtonClasses = () => {
